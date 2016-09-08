@@ -1,25 +1,8 @@
 {
   "name": "blog-ps-post",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "component for creating blog posts",
   "main": "blog_post.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "rm -rf dist/*.js && babel src/components/ --out-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/david8zhang/blog-post.git"
-  },
-  "author": "David Zhang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/david8zhang/blog-post/issues"
-  },
-  "homepage": "https://github.com/david8zhang/blog-post#readme",
   "dependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
@@ -43,5 +26,21 @@
     "webpack": "^1.13.2",
     "webpack-combine-loaders": "^2.0.0",
     "webpack-dev-server": "^1.15.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "rm -rf dist/*.js && babel src/components/ --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david8zhang/blog-post.git"
+  },
+  "author": "David Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david8zhang/blog-post/issues"
+  },
+  "homepage": "https://github.com/david8zhang/blog-post#readme"
 }
