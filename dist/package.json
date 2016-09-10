@@ -1,6 +1,6 @@
 {
   "name": "blog-ps-post",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "component for creating blog posts",
   "main": "blog_post.js",
   "dependencies": {

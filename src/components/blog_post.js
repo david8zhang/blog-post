@@ -48,7 +48,7 @@ class BlogPost extends Component {
 					<p style={{marginTop: '10px'}}>{this.props.text.substring(0, 800) + '...'}</p>
 				</div>
 				<div className='post-footer' style={{background: '#e6e6e6', overflow:'hidden'}}>
-					<div className='row'>
+					<div className='row' style={{margin:'0px', maxWidth:'100%'}}>
 						<div className='small-6 large-6 columns' style={{padding:'0px'}}>
 							<h5 style={{marginTop:'15px', fontSize:'15px', marginLeft:'15px'}}>
 								{this.props.date + ' by'}

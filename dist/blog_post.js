@@ -45,8 +45,6 @@ var BlogPost = (function (_Component) {
 				border: '1px solid #e6e6e6',
 				boxShadow: '0 0 5px #e6e6e6',
 				backgroundColor: 'white',
-				maxWidth: '80%',
-				marginLeft: '20%',
 				marginBottom: '40px'
 			};
 
@@ -96,7 +94,7 @@ var BlogPost = (function (_Component) {
 					{ className: 'post-footer', style: { background: '#e6e6e6', overflow: 'hidden' } },
 					_react2.default.createElement(
 						'div',
-						{ className: 'row' },
+						{ className: 'row', style: { margin: '0px', maxWidth: '100%' } },
 						_react2.default.createElement(
 							'div',
 							{ className: 'small-6 large-6 columns', style: { padding: '0px' } },
