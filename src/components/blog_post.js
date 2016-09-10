@@ -20,8 +20,6 @@ class BlogPost extends Component {
 			border: '1px solid #e6e6e6',
 			boxShadow: '0 0 5px #e6e6e6',
 			backgroundColor:'white',
-			maxWidth:'80%',
-			marginLeft:'20%',
 			marginBottom: '40px'
 		}
 
